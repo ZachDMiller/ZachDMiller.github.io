@@ -1,6 +1,4 @@
-<HTA:APPLICATION ID = 'Clicker'
-icon = 'data\images\Tray1.ico'
-/>
+<html>
 <title>
 Clicker
 </title>
@@ -10,8 +8,13 @@ Clicker
 _______________________________________________________
 </br>
 </header>
-<body background = "https://i.imgur.com/LTq4MY5.png">
+<body class="body.background">
 </body>
+<style>
+body.background {
+	background: url(https://i.imgur.com/LTq4MY5.png);
+}
+</style>
 <script>
 
 //resize and move window
@@ -160,3 +163,4 @@ Auto Atom Maker
 <button onclick="autoAtom()">Automatically Create Atoms (3)</button>
 Cost:
 <p id="autoatomprice">500</p>
+</html>
